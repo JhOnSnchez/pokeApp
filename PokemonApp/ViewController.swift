@@ -26,7 +26,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         searchBar.delegate = self
         searchBar.returnKeyType = .Done
         parsePokemonCSV()
-        //startPlayingMusic()
+        startPlayingMusic()
     }
     
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
